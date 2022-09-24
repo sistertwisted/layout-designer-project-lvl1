@@ -1,0 +1,134 @@
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --maincolor: #fe8a02;
+  --maindark: #42413c;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url("../../assets/fonts/Neucha-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../assets/fonts/OpenSans-Regular.ttf");
+}
+
+body {
+  color: #2a2626;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 34px;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+.color-orange {
+  color: var(--maincolor);
+}
+
+.color-black {
+  color: var(--dark);
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.bg-main {
+  background-image: url(../../img/background-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color-light {
+  background-color: var(--light);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--light);
+}
+
+.header::before {
+  position: absolute;
+  background-image: url(../../img/background-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.9;
+}
+
+.columns {
+  display: flex;
+  gap: 30px;
+}
+
+.column {
+  width: 540px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-bottom-185 {
+  margin-bottom: 185px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.header-img {
+  position: absolute;
+  top: 58px;
+  left: 295px;
+  height: 525px;
+}
+
+.btn-orange {
+  background-color: var(--maincolor);
+  border: none;
+  color: white;
+  padding: 12px 24px 12px 24px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  width: 101px;
+  box-sizing: content-box;
+}
