@@ -172,6 +172,7 @@ h3 {
 
 .btn-orange {
   box-sizing: content-box;
+  display: block;
   width: 101px;
   padding: 12px 24px;
   color: white;
