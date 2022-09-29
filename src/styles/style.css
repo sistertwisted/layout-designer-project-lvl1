@@ -27,20 +27,20 @@ body {
   line-height: 1.6em;
 }
 
-h1 {
+.h1 {
   font-size: 72px;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
-h2 {
+.h2 {
   font-weight: 400;
   font-size: 60px;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
 
-h3 {
+.h3 {
   font-weight: 400;
   font-size: 34px;
   font-family: Neucha, sans-serif;
