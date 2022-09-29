@@ -21,12 +21,13 @@
 }
 
 @font-face {
-  font-family: "Open Sans";
   font-weight: 700;
+  font-family: "Open Sans";
   src: url("../assets/fonts/OpenSans-Bold.ttf");
 }
 
 body {
+  margin: 0;
   color: #2a2626;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -34,8 +35,9 @@ body {
 }
 
 .h1 {
-  font-size: 72px;
   font-weight: 400;
+  font-size: 72px;
+
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
 }
@@ -170,12 +172,13 @@ body {
 }
 
 .btn-orange {
-  box-sizing: content-box;
   display: block;
+  box-sizing: content-box;
   width: 101px;
+  margin-top: 38px;
+
   padding: 12px 24px;
   color: white;
-margin-top: 38px;
 
   font-weight: 700;
   font-size: 16px;
@@ -205,7 +208,6 @@ margin-top: 38px;
   z-index: 2;
   margin-bottom: -90px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-  border: none;
 }
 
 .flex-container {
@@ -237,7 +239,7 @@ margin-top: 38px;
   background-color: var(--maincolor);
 }
 
-.card:hover>a>h3 {
+.card:hover > a > h3 {
   color: #fff;
 }
 
@@ -281,7 +283,6 @@ h3.color-orange {
   padding-top: 0;
 }
 
-
 .section-title {
   margin: 0;
   padding: 0;
@@ -296,7 +297,7 @@ h3.color-orange {
 }
 
 .section-title-light {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .section-h2 {
@@ -305,42 +306,43 @@ h3.color-orange {
 }
 
 .section-description {
-  font-family: "Neucha";
-  font-style: normal;
+  color: #2a2626;
   font-weight: 400;
   font-size: 34px;
+  font-family: Neucha, serif;
+  font-style: normal;
   line-height: 41px;
-
-  color: #2a2626;
 }
 
 .section-description-light {
-  color: #FFF;
+  color: #fff;
 }
 
 .description-header {
-  background: #b09a81;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-
-  color: #fff;
   margin-top: 100px;
   margin-bottom: 7px;
   padding: 5px;
   padding-left: 10px;
+
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+
+  line-height: 17px;
+  text-transform: uppercase;
+
+  background: #b09a81;
 }
 
 .description-header-light {
-  background-color: #FFFFFF;
   color: #b09a81;
+  background-color: #fff;
 }
 
 .img {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .darkbg {
@@ -352,13 +354,14 @@ h3.color-orange {
 .footer-subscribe {
   display: flex;
   gap: 145px;
-  margin-bottom: 76px;
-  padding: 38px 55px;
   align-items: center;
 
-  color: #FFFFFF;
+  margin-bottom: 76px;
+  padding: 38px 55px;
 
-  background: #42413C;
+  color: #fff;
+
+  background: #42413c;
 }
 
 .margin-0 {
@@ -367,13 +370,12 @@ h3.color-orange {
 
 .btn-send {
   position: absolute;
-  width: 70px;
-  height: 50px;
   top: 28px;
   right: -65px;
+  width: 70px;
+  height: 50px;
+  background: #fe8a02;
   border: none;
-
-  background: #FE8A02;
 }
 
 .btn-send::before {
@@ -381,34 +383,34 @@ h3.color-orange {
 }
 
 .policy {
-  margin: 0;
   display: block;
   width: 286px;
+  margin: 0;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
 }
 
 .email {
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
-  margin-bottom: 0;
 }
 
 .email-input {
   box-sizing: border-box;
+  width: 423px;
   height: 50px;
   padding: 15px;
-  width: 423px;
 }
 
 .email-input::placeholder {
-
+  color: #757575;
   font-weight: 400;
   font-size: 13.1px;
   line-height: 160%;
-  color: #757575;
 
   opacity: 0.2;
 }
@@ -418,7 +420,7 @@ h3.color-orange {
 }
 
 .link-blue {
-  color: #007DC1;
+  color: #007dc1;
 }
 
 .footer-flex {
@@ -431,11 +433,11 @@ h3.color-orange {
 .contacts {
   display: flex;
   flex-direction: column;
+  gap: 16px;
   align-items: center;
   font-weight: 400;
-font-size: 14px;
-line-height: 160%;
-gap: 16px;
+  font-size: 14px;
+  line-height: 160%;
 }
 
 .contacts > p {
