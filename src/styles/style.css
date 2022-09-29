@@ -12,12 +12,12 @@
 
 @font-face {
   font-family: Neucha;
-  src: url("../../assets/fonts/Neucha-Regular.ttf");
+  src: url("../assets/fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Regular.ttf");
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
 }
 
 body {
